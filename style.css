@@ -1,0 +1,13 @@
+/* RESETANDO A TELA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6ECF0;
+    font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothin: antialiased !important;
+}
