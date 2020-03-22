@@ -17,6 +17,7 @@ header#main-header {
     align-items: center;
     justify-content: space-between;
     height: 46px;
+    background-color: #fff;
 }
 
 header#main-header nav ul {
@@ -35,4 +36,19 @@ header#main-header nav ul li {
 
 header#main-header nav ul li:first-child {
     margin-left: 0;
+}
+
+header#main-header nav ul li img {
+    margin-right: 7px;
+}
+
+header#main-header div.side {
+    display: flex;
+    align-items: center;
+}
+
+header#main-header div.side img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
 }
