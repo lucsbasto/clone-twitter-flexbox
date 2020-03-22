@@ -11,3 +11,28 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothin: antialiased !important;
 }
+
+header#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+}
+
+header#main-header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header#main-header nav ul li {
+    display: flex;
+    align-items: center;
+    color: #667580;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+header#main-header nav ul li:first-child {
+    margin-left: 0;
+}
