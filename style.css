@@ -51,6 +51,7 @@ header#main-header div.side img {
     width: 34px;
     height: 34px;
     border-radius: 50%;
+    margin: 0 15px;
 }
 
 header#main-header div.side button {
