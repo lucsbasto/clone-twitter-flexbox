@@ -54,6 +54,11 @@ header#main-header div.side img {
     margin: 0 15px;
 }
 
+input,
+button {
+    outline: 0;
+}
+
 header#main-header div.side button {
     height: 34px;
     width: 90px;
@@ -66,4 +71,15 @@ header#main-header div.side button {
     font-weight: bold;
     border-radius: 16px;
     border: 0;
+}
+
+header#main-header div.side input {
+    height: 34px;
+    width: 220px;
+    border: 1px solid #E6ECF0;
+    padding: 0 35px 0 12px;
+    font-size: 12px;
+    border-radius: 16px;
+    color: #667581;
+    background: #F5F8FA url("/images/search.svg") no-repeat 190px center;
 }
