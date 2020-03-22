@@ -13,9 +13,9 @@ body {
 }
 
 .content {
-    max-width: 1170px;
+    max-width: 2000px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 header#main-header {
@@ -181,4 +181,66 @@ header#main-header div.side input {
     border-radius: 16px;
     border: 1px solid #3bb9e3;
     margin-right: 20px;
+}
+
+.wrapper-content {
+    display: flex;
+}
+
+.wrapper-content aside.profile {
+    max-width: 270px;
+}
+
+.wrapper-content aside.profile img.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    margin-top: -130px;
+
+}
+
+.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+
+.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #52626C
+}
+
+.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #3c4b5f;
+    margin-top: 15px;
+}
+
+.wrapper-content aside.profile ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.wrapper-content aside.profile li {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #52626C;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content aside.profile li#url {
+    color: #3bb9e3;
+    font-weight: bold;
+}
+
+
+.wrapper-content aside.profile li:first-child {
+    margin: 0;
+}
+
+
+.wrapper-content aside.profile li img {
+    margin-right: 10px;
 }
