@@ -217,12 +217,12 @@ header#main-header div.side input {
     margin-top: 15px;
 }
 
-.wrapper-content aside.profile ul {
+.wrapper-content aside.profile ul.list {
     list-style: none;
     margin-top: 20px;
 }
 
-.wrapper-content aside.profile li {
+.wrapper-content aside.profile ul.list li {
     margin-top: 5px;
     font-size: 14px;
     color: #52626C;
@@ -230,17 +230,67 @@ header#main-header div.side input {
     align-items: center;
 }
 
-.wrapper-content aside.profile li#url {
+.wrapper-content aside.profile ul.list li#url {
     color: #3bb9e3;
     font-weight: bold;
 }
 
 
-.wrapper-content aside.profile li:first-child {
+.wrapper-content aside.profile ul.list li:first-child {
     margin: 0;
 }
 
 
-.wrapper-content aside.profile li img {
+.wrapper-content aside.profile ul.list li img {
     margin-right: 10px;
+}
+
+.wrapper-content aside.profile .widget {
+    margin-top: 20px;
+}
+
+.wrapper-content aside.profile .widget strong {
+    font-weight: normal;
+    color: #3bb9e3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content aside.profile .widget strong img {
+    margin-right: 5px;
+}
+
+.wrapper-content aside.profile .followers ul {
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-content aside.profile .followers ul li {
+    flex-grow: 1;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+    background-color: #d0d5d9;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.wrapper-content aside.profile .images ul {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.wrapper-content aside.profile .images ul li {
+    flex-grow: 1;
+    width: 83px;
+    height: 83px;
+    border-radius: 8px;
+    background-color: #d0d5d9;
+    margin-right: 5px;
+    margin-top: 5px;
 }
