@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+.dark {
+    color: #fff;
+    background-color: #282a36;
+    font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothin: antialiased !important;
+}
+
+.light {
+    background-color: #e6ecf0;
+    font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothin: antialiased !important;
+}
+
 body {
     background-color: #e6ecf0;
     font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
@@ -13,7 +28,7 @@ body {
 }
 
 .content {
-    max-width: 2000px;
+    max-width: 2500px;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -45,6 +60,10 @@ header#main-header nav ul li {
     font-weight: bold;
     font-size: 13px;
     margin-left: 30px;
+}
+
+#logo {
+    cursor: pointer
 }
 
 header#main-header nav ul li:first-child {
@@ -204,6 +223,38 @@ header#main-header div.side input {
     margin-top: 10px;
 }
 
+.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+
+
+.dark .wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.dark .wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dark .wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.dark .wrapper-content aside.profile ul.list li {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
 .wrapper-content aside.profile span {
     font-size: 14px;
     color: #52626c;
@@ -265,10 +316,10 @@ header#main-header div.side input {
 }
 
 .wrapper-content aside.profile .followers ul li {
-    flex-grow: 1;
     margin-right: 5px;
-    width: 48px;
-    height: 48px;
+    padding-left: 5px;
+    width: 60px;
+    height: 60px;
     background-color: #d0d5d9;
     border-radius: 50%;
     margin-top: 5px;
@@ -294,7 +345,13 @@ header#main-header div.side input {
 .wrapper-content .timeline {
     flex-grow: 1;
     background-color: #fff;
-    margin: 10px 20px 0;
+    margin: 20px 20px 0;
+}
+
+.dark .wrapper-content .timeline {
+    flex-grow: 1;
+    background-color: #cccecf;
+    margin: 20px 20px 0;
 }
 
 .wrapper-content .timeline nav {
@@ -382,7 +439,7 @@ header#main-header div.side input {
 
 .wrapper-content aside.widgets {
     margin-top: 20px;
-    max-width: 290px;
+    max-width: 300px;
 }
 
 .wrapper-content aside.widgets .widget {
@@ -392,32 +449,34 @@ header#main-header div.side input {
 
 .wrapper-content aside.widgets .widget .title {
     display: flex;
+    flex-direction: column;
     align-items: baseline;
 }
 
 .wrapper-content aside.widgets .widget .title strong {
-    font-size: 18px;
+    font-size: 15px;
     color: #1f2226
+}
+
+.wrapper-content aside.widgets .widget .title .more {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .wrapper-content aside.widgets .widget .title a {
     font-size: 12px;
     color: #3bb9e3;
     text-decoration: none;
-    padding-left: 10px;
     position: relative;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
-.wrapper-content aside.widgets .widget .title a::before {
-    content: "";
-    width: 2px;
-    height: 2px;
-    border-radius: 50%;
-    background-color: #222;
-    position: absolute;
-    top: 6px;
-    left: 4px;
+.wrapper-content aside.widgets .widget .title a:first-child {
+    padding-left: 0;
 }
+
 
 .wrapper-content aside.widgets .follow ul {
     list-style: none;
