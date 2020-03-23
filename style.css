@@ -447,6 +447,11 @@ header#main-header div.side input {
     padding: 15px;
 }
 
+.dark .wrapper-content aside.widgets .widget {
+    background-color: #cccecf;
+    padding: 15px;
+}
+
 .wrapper-content aside.widgets .widget .title {
     display: flex;
     flex-direction: column;
