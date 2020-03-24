@@ -2,6 +2,7 @@ var logo = document.getElementById("logo");
 var body = document.getElementsByName("body")[0];
 var header = document.getElementById("header");
 var bar = document.getElementById("bar");
+
 let is_dark_mode = false;
 logo.addEventListener("click", modifyClass);
 
