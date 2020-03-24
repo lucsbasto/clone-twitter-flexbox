@@ -18,20 +18,8 @@ function modifyClass() {
       bar.classList.remove("dark");
       body.classList.remove("dark");
     }
-    bar.classList.add("light");
-    header.classList.add("light");
-    body.classList.add("light");
     is_dark_mode = !is_dark_mode;
   } else {
-    if (
-      header.classList.contains("light") &&
-      bar.classList.contains("light") &&
-      body.classList.contains("light")
-    ) {
-      header.classList.remove("light");
-      bar.classList.remove("light");
-      body.classList.remove("light");
-    }
     bar.classList.add("dark");
     header.classList.add("dark");
     header.classList.add("dark");
